@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+        font-family: 'Vazir-Black-FD.woff2' ;
+        src: url('../fonts/Vazir-Black-FD.woff2');
+}
+
+
+body {
+    font-family: 'Vazir-Black-FD.woff2' ;
+    margin: 0;
+}
+
+.main-header {
+    width: 100%;
+    background-color: #1565c0;
+    padding: 8px 16px;
+}
+
+.main-header > div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-header__logo {
+    text-decoration: none;
+    color: #e3f2f2;
+    font-size: 22px;
+}
+
+.main-nav {
+    display: inline-block;
+    width: calc(100% - 70px);
+    text-align: right;
+    vertical-align: middle;
+}
+
+.main-nav__items {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+.main-nav__item {
+    display: inline-block;
+    margin: 0 16px;
+}
+
+.main-nav__item a {
+    text-decoration: none;
+    color: #bbddfb;
+}
