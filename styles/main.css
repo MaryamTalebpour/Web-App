@@ -71,3 +71,43 @@ body {
 .main-nav__item--acount a:active {
     color: #1565c0;
 }
+
+#overview {
+    width: 100%;
+    height: 500px;
+    background-image: url('../images/frida_vogue_model_key_1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.section-title {
+    color: #1565c0;
+    text-align: center;
+}
+
+.plan--list {
+    width: 65%;
+    margin: auto;
+}
+
+.plan {
+    width: 30%;
+    padding: 16px;
+    margin: 8px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    color: #424242;
+    box-shadow: 0 0 25px 5px rgba(0, 0, 0, 0.07);
+    direction: rtl;
+}
+
+.plan--highlighted {
+    background-color: #e3f2fd;
+    color: #1565c0;
+}
+
+.plan-title--highlighted {
+    
+}
