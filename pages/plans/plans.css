@@ -3,14 +3,12 @@ main {
 }
 
 .background {
-    background: url(../../images/bg-image.jpg);
+    background: url(../../images/bg-image.jpg) center/cover no-repeat;
+    filter: grayscale(40%);
     width: 100%;
     height: 100%;
     position: fixed;
     z-index: -1;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
 }
 
 .plan {
@@ -21,6 +19,7 @@ main {
     text-align: right;
     border-radius: 3px;
     z-index: 0;
+    position: relative;
 }
 
 
@@ -39,6 +38,19 @@ main {
     background-color: #ffffff;
 
 }
+
+.plan--badge {
+    position: fixed;
+    top: 0;
+    margin: 20px;
+    right: 0;
+    font-size: 15px;
+    position: absolute;
+    background-color: #1e88e5;
+    color: #ffffff;
+    padding: 2px 8px;
+}
+
 
 .clearfix {
     clear: both;
