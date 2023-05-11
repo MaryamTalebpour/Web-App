@@ -13,8 +13,8 @@ main {
 
 .plan {
     width: 60%;
-    margin: 16px 0;
-    border: 2px solid #1565c0;
+    margin: 1rem 0;
+    border: 0.1rem solid #1565c0;
     border-left: none;
     text-align: right;
     border-radius: 3px;
@@ -27,14 +27,14 @@ main {
     text-decoration: none;
     color: #0d47d1;
     display: block;
-    padding: 32px;
+    padding: 2rem;
 }
 
 .plan--info {
-    padding: 16px;
-    border: 1px solid #1e88e5;
-    font-size: 15px;
-    border-radius: 3px;
+    padding: 1rem;
+    border: 0.06rem solid #1e88e5;
+    font-size: 0.9rem;
+    border-radius: 0.1rem;
     background-color: #ffffff;
 
 }
@@ -42,13 +42,13 @@ main {
 .plan--badge {
     position: fixed;
     top: 0;
-    margin: 20px;
+    margin: 1.2rem;
     right: 0;
-    font-size: 15px;
+    font-size: 0.9rem;
     position: absolute;
     background-color: #1e88e5;
     color: #ffffff;
-    padding: 2px 8px;
+    padding: 0.1rem 0.5rem;
 }
 
 
@@ -66,7 +66,7 @@ main {
     background-color: #e3f2fd;
     float: right;
     border-right:none ;
-    border-left: 2px solid #1565c0;
+    border-left: 0.1rem solid #1565c0;
 }
 
 
