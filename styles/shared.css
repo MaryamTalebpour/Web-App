@@ -11,6 +11,16 @@
 body {
     font-family: 'Vazir-Black-FD.woff2' ;
     margin: 0;
+    display: grid;
+    grid-template-rows: 2rem auto fit-content(8rem);
+    grid-template-areas: 
+    'header'
+    'main'
+    'footer';
+}
+
+main {
+    grid-area: main;
 }
 
 .backdrop {
@@ -84,6 +94,7 @@ body {
 .main-footer {
     background-color: #424242;
     padding: 2rem;
+    grid-area: footer;
 }
 
 .main-footer--links {
