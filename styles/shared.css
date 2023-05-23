@@ -30,12 +30,11 @@ body {
     padding: 0.5rem 1rem;
     position: fixed;
     z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.main-header > div {
-    display: inline-block;
-    vertical-align: middle;
-}
 
 .main-header__logo {
     text-decoration: none;
@@ -44,13 +43,11 @@ body {
 }
 
 .main-nav {
-    display: inline-block;
-    width: calc(100% - 70px);
-    text-align: right;
-    vertical-align: middle;
+    display: flex;
 }
 
 .main-nav__items {
+    display: flex;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -58,7 +55,6 @@ body {
 
 
 .main-nav__item {
-    display: inline-block;
     margin: 0 1rem;
 }
 
@@ -91,14 +87,14 @@ body {
 }
 
 .main-footer--links {
+    display: flex;
     list-style: none;
     margin: 0;
     padding: 0;
-    text-align: center;
+    justify-content: center;
 }
 
 .main-footer--link {
-    display: inline-block;
     margin: 0 1rem;
 }
 
