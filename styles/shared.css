@@ -85,6 +85,10 @@ main {
     color: #ffffff;
 }
 
+.main-nav__item--acount {
+    animation: account 0.3s 2s 8;
+}
+
 .main-nav__item--acount a {
     background-color: #e3f2fd;
     color: #1565c0;
@@ -123,4 +127,13 @@ main {
 .main-footer--link a:hover,
 .main-footer--link a:active {
     color: #e0e0e0;
+}
+
+@keyframes account {
+    from {
+        transform: rotateZ(0);
+    }
+    to {
+        transform: rotateZ(10deg);
+    }
 }
